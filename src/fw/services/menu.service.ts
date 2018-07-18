@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
+
+export interface MenuItems{
+
+}
+
+@Injectable()
 export class MenuService {
 
+  items: Array<MenuItems>;
+  
   constructor() { }
 }
