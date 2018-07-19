@@ -1,14 +1,17 @@
 import { Injectable } from '@angular/core';
 
 
-export interface MenuItems{
-
+export interface MenuItem{
+  text: string,
+  icon: string,
+  route: string,
+  submenu: Array<MenuItem>
 }
 
 @Injectable()
 export class MenuService {
 
-  items: Array<MenuItems>;
-  
+  items: Array<MenuItem>;
+
   constructor() { }
 }

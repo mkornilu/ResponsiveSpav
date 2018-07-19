@@ -1,4 +1,4 @@
-import { Directive, TemplateRef, ViewContainerRef, Input } from "../../../node_modules/@angular/core";
+import { Directive, TemplateRef, ViewContainerRef, Input } from "@angular/core";
 import { ScreenService } from "../services/screen.service";
 
 
